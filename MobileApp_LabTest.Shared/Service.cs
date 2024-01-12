@@ -8,7 +8,7 @@ using Refit;
 
 namespace MobileApp_LabTest.Shared
 {
-    internal class Service
+    public class Service
     {
         [Get("/posts")]
         Task<List<PostRecord>> GetPosts();
